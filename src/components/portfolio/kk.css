@@ -1,0 +1,18 @@
+.swiper{
+    overflow: visible;
+}
+
+.swiper-slide {
+    width: auto !important;
+}
+
+@media (max-width: 768px) {
+    .swiper-slide {
+        width: 100% !important;
+        height: fit-content !important;
+    }
+}
+
+.swiper-wrapper{
+    height: fit-content !important;
+}
